@@ -1,5 +1,6 @@
 body{
     background: #04202C;
+    font: italic 1.2rem "Fira Sans", serif;
 }
 
 .navigation{
@@ -27,7 +28,7 @@ body{
     font-size: medium;
     width: 90%;
     height: 40px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .btn-new:hover {
