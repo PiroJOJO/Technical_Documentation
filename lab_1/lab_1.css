@@ -50,6 +50,18 @@ body{
     margin-left: 5%;
 }
 
+h3::after, h4::after {
+    content: '';
+    visibility: hidden;
+    position: absolute;
+    margin-left: 5px;
+}
+
+h3:hover::after, h4:hover::after {
+    content: '#';
+    visibility: visible;
+}
+
 .h4{
     text-align: center;
 }
